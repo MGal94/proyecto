@@ -9,3 +9,8 @@ margin:10px auto ;
  width: 400px;
 padding: 20px;
 }
+
+.barra-azul {
+    background-color: #2173ed;
+    padding: 10px;
+}

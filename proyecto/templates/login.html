@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twelve's Store administración</title>
+    <link rel="stylesheet" href="../static/style-login.css">
+</head>
+<body>
+    <div class="login">
+      <div class="titulos">
+        <h2>Twelve's Store</h2>
+        <h4>administración</h4>
+       </div>
+        <form class ="login-form" id="loginForm">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="button" onclick="validateLogin()">Login</button>
+        </form>
+        <p id="errorMessage" class="error-message"></p>
+    </div>
+    <script src="../static/login.js"></script>
+</body>
+</html>
